@@ -1,0 +1,15 @@
+一、直接在 GitHub 网页端使用 Markdown 编辑器
+这是最常用的方式，适用于创建 / 编辑文档、issue、评论等场景：
+创建 / 编辑文件（如 README.md）
+进入目标仓库，点击右上角的 Add file → Create new file。
+在文件名输入框中填写带有 .md 后缀的文件名（如 README.md），此时编辑区域会自动切换为 Markdown 编辑模式。
+编辑框下方默认显示 Edit new file（纯文本编辑），点击右侧的 Preview 可实时预览渲染效果，再次点击 Edit 回到编辑模式。
+提交 Issue 或评论
+在仓库的 Issues 页面点击 New issue，或在现有 issue、PR 下评论时，输入框默认支持 Markdown 语法。
+输入框上方有快捷工具栏（粗体、链接、列表等按钮），点击可插入对应 Markdown 格式；点击输入框下方的 Preview 可切换到预览模式。
+二、使用 GitHub 的 Markdown 语法支持
+GitHub 的 Markdown 编辑器遵循 GitHub Flavored Markdown (GFM) 标准，除了基础 Markdown 语法（标题、列表、链接等），还支持以下扩展功能：
+代码块高亮：使用 + 语言名（如 python）包裹代码。
+任务列表：- [x] 已完成任务、- [ ] 未完成任务。
+表格：| 表头1 | 表头2 | 格式。
+表情符号：输入 :emoji名称:（如 :smile: 显示 😊），可在编辑时按 Tab 键自动补全。
